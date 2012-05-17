@@ -51,7 +51,7 @@
 	$.fn.jOmglook.defaultSettings = {
 		container	: $('body'),
 		url			: document.URL,
-		spacing : "6px"
+		spacing     : "6px"
 		
 	};
 
@@ -104,7 +104,7 @@
 		googShare: function(elem){
 			var goog = $('<div class="_jOmglook_link"><g:plusone size="medium" annotation="none" width="120" class="_jOmglook_link"></g:plusone></div>');
 			elem.append(goog);
-			this.settings.container.append('<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>');0			
+			this.settings.container.append('<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>');			
 		},
 		
 		cleanStyles: function(){
