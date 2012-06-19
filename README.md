@@ -1,4 +1,1 @@
-jOmglook
-========
-
-jQuery plugin to show social media buttons
+# [jOmglook](gitchen.github.com/jOmglook/)
