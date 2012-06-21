@@ -102,7 +102,7 @@ twitShare: function(elem){
            },
 
 googShare: function(elem){
-             var goog = $('<div class="_jOmglook_link"><g:plusone size="medium" annotation="none" width="120" class="_jOmglook_link"></g:plusone></div>');
+             var goog = $('<div class="_jOmglook_link"><g:plusone size="medium" annotation="none"></g:plusone></div>');
              elem.append(goog);
              this.settings.container.append('<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>');			
            },
@@ -125,7 +125,6 @@ cleanStyles: function(){
                  'height' : '24px',
                  'overflow' : 'hidden'					
                }
-
                $('._jOmglook_facebook').css(facebookStyle);
              }
 }
