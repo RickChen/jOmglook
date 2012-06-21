@@ -1,1 +1,1 @@
-# [jOmglook](gitchen.github.com/jOmglook/)
+# [jOmglook](http://gitchen.github.com/jOmglook/)
